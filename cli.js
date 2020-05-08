@@ -7,7 +7,7 @@ const { join } = require('path');
 const chalk = require('chalk');
 const run = require('./lib/index');
 
-// print version and @local
+
 const args = yParser(process.argv.slice(2));
 
 const name = args._[0] || '';
