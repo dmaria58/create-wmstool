@@ -1,13 +1,13 @@
 {
-  "name": "create-wmsapp",
-  "version": "0.1.0",
+  "name": "create-my-page",
+  "version": "0.2.0",
   "description": "Creates a reactApp application using the command line.",
   "main": "cli.js",
   "directories": {
     "lib": "lib"
   },
   "bin": {
-    "create-wmsapp": "cli.js"
+    "create-my-page": "cli.js"
   },
   "dependencies": {
     "ejs": "^3.1.2",
@@ -24,6 +24,14 @@
   "keywords": [
     "react",
     "create react app",
-    "wmstool"
-  ]
+    "create page"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmaria58/create-page.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dmaria58/create-page/issues"
+  },
+  "homepage": "https://github.com/dmaria58/create-page#readme"
 }

@@ -1,10 +1,10 @@
-## create-page
+## create-my-page
 Based on EJS, a tool for quickly generating pages according to custom templates
 基于ejs，根据自定义模板快速搭建页面的脚手架
 
 ## Install
 ```
-$ npm install create-page -g
+$ npm install create-my-page -g
 ```
 
 ## Usage
@@ -27,17 +27,17 @@ module.exports={
 }
 
 ```
-实例中的Test2为执行create-page时对应的key
+实例中的Test2为执行create-my-page时对应的key
 新增完配置文件.createPage.js后，具体执行命令如下：
 ```
-$ create-wmsapp
+$ create-my-page
 ? input your page name Test2
 success add Test2.js
 ```
 
 当输入的page name和配置的.createPage.js中配置的key无一匹配时，会报错如下：
 ```
-$ create-wmsapp
+$ create-my-page
 ? input your page name Test3
 no page to add
 
@@ -96,7 +96,7 @@ export default <%= page %>;
 ```
 则执行了以下命令后
 ```
-$ create-wmsapp
+$ create-my-page
 ? input your page name Test3
 no page to add
 
