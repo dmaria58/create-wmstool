@@ -35,6 +35,12 @@ $ create-my-page
 success add Test2.js
 ```
 
+或者直接输入对应的ley，执行生产页面任务，具体执行命令如下：
+```
+$ create-my-page Test2
+success add Test2.js
+```
+
 当输入的page name和配置的.createPage.js中配置的key无一匹配时，会报错如下：
 ```
 $ create-my-page
