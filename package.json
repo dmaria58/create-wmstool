@@ -1,10 +1,11 @@
 {
   "name": "create-my-page",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Creates a reactApp application using the command line.",
   "main": "cli.js",
   "directories": {
-    "lib": "lib"
+    "lib": "lib",
+    "test": "test"
   },
   "bin": {
     "create-my-page": "cli.js"
