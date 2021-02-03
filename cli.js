@@ -14,12 +14,9 @@ const path = args._[1] || '';
 const { type } = args;
 delete args.type;
 
-(async () => {
-  await run({
+run({
     name,
     type,
     args,
     path,
   });
-  //process.exit(0);
-})();
